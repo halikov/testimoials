@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="page__body">
+  <div class="container">
+    <div class="testimonials">
+      <div class="testimonials__review review">
+        <div class="review__image picture">
+          <picture>
+
+            <source type="image/webp" media="(min-width: 1050px)" src="images/edward-img@2.webp">
+            <source type="image/webp" media="(min-width: 768px)" src="images/edward-img.webp">
+
+            <source type="image/webp" srcset="images/edward-img.webp 1x, images/edward-img@2.webp 2x">
+
+            <source media="(min-width: 1150px)" src="images/edward-img@2.jpg">
+            <source media="(min-width: 768px)" src="images/edward-img.jpg">
+
+            <img src="images/edward-img.jpg" srcset="images/edward-img@2.jpg 2x" alt="Edward S. Hisey">
+
+          </picture>
+        </div>
+        <div class="review__blockquote blockquote">
+          <div class="blockquote__icon">
+            <svg class="sprite" width="31" heigh="31">
+              <use href="images/sprite.svg#quotes"></use>
+            </svg>
+          </div>
+          <blockquote class="blockquote__text">
+            Like Neo from the Matrix, the world opens up and you start to see everything in 1’s and 0’s
+          </blockquote>
+          <cite class="blockqoute__author">
+            <span class="blockqoute__author-name">Edward S. Hisey</span>
+            <span class="blockquote__author-job">Chief Marketing Officer</span>
+          </cite>
+        </div>
+      </div>
+      <div class="testimonials__brands brands">
+        <ul class="brands__list">
+          <li class="brands__item">
+            <svg class="sprite" width="110" height="28">
+              <use href="images/sprite.svg#weebly"></use>
+            </svg>
+          </li>
+          <li class="brands__item">
+            <svg class="sprite" width="110" height="28">
+              <use href="images/sprite.svg#tesla"></use>
+            </svg>
+          </li>
+          <li class="brands__item">
+            <svg class="sprite" width="110" height="28">
+              <use href="images/sprite.svg#tnw"></use>
+            </svg>
+          </li>
+          <li class="brands__item">
+            <svg class="sprite" width="110" height="28">
+              <use href="images/sprite.svg#cPanel"></use>
+            </svg>
+          </li>
+        </ul>
+        <button class="button">
+          <span class="button__text">View all</span>
+          <svg class="button__icon" xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="none">
+            <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.75"
+              d="M9.17 22h25.66M27.5 29.33L34.83 22M27.5 14.67L34.83 22" />
+          </svg>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
